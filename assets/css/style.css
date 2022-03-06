@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+
+header {
+    padding: 20px 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header nav {
+    margin: 10px 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li {
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
